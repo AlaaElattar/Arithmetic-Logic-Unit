@@ -1,3 +1,9 @@
+/* Alaa Mahmoud Ebrahim		20190105
+   Rana Ihab Ahmed			20190207
+   Omar Khaled Alhaj		20190351
+   Group:CS-S2
+*/
+
 module mux4(output d, input s1, input s2, input a3, input a2, input a1, input a0);
 	wire [3:0] temp;
 	and(temp[3], a3, s1, s2);
